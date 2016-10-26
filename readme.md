@@ -18,8 +18,11 @@ cp .env.example .env
 php artisan key:generate
 ```
 修改.env的配置项
-```vi .env```
-```DB_HOST=数据库IP，默认localhost或127.0.0.1
+```
+vi .env
+```
+```
+DB_HOST=数据库IP，默认localhost或127.0.0.1
 DB_PORT=数据库端口，默认3306
 DB_DATABASE=数据库名
 DB_USERNAME=用户名

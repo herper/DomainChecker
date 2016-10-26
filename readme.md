@@ -18,10 +18,8 @@ cp .env.example .env
 php artisan key:generate
 ```
 修改.env的配置项
-```vi .env
-```
-```
-DB_HOST=数据库IP，默认localhost或127.0.0.1
+```vi .env```
+```DB_HOST=数据库IP，默认localhost或127.0.0.1
 DB_PORT=数据库端口，默认3306
 DB_DATABASE=数据库名
 DB_USERNAME=用户名
@@ -32,7 +30,8 @@ DM_SENDER=填写阿里云的发信地址
 DM_SENDER_NAME=填写发信人姓名，限制英文，不得有空格
 OWNERMAIL=填写接受邮件提醒的邮箱
 ```
-写入数据库
+
+##写入数据库
 ```
 php artisan migrate
 ```
